@@ -1,7 +1,7 @@
 from src.reports.by_death_mean_report import generate_by_death
 import json
 
-with open("./mocks/by_death_ranking_dict.json", mode="r") as file:
+with open("tests/mocks/by_death_ranking_dict.json", mode="r") as file:
     by_death_dict = json.loads(file.read())
 
 

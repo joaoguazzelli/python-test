@@ -2,7 +2,7 @@ from src.reports.default_report import generate_default
 import json
 import pytest
 
-with open("./mocks/default_ranking_dict.json", mode="r") as file:
+with open("tests/mocks/default_ranking_dict.json", mode="r") as file:
     default_dict = json.loads(file.read())
 
 
