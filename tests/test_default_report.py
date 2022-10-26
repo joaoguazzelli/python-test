@@ -6,7 +6,7 @@ with open("tests/mocks/default_ranking_dict.json", mode="r") as file:
     default_dict = json.loads(file.read())
 
 
-def test__match_number():
+def test_match_number():
     report = generate_default(default_dict)
     expected = " Match: 21"
     assert expected in report
